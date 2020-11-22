@@ -22,6 +22,7 @@
         <Label Content="Log (" HorizontalAlignment="Left" Margin="124.08,66.388,0,0" VerticalAlignment="Top" Height="34" Width="51.471" FontSize="18" Foreground="White"/>
         <Label Content=")" HorizontalAlignment="Left" Margin="324.184,66.388,0,0" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="-6,-1.853" Height="31" Foreground="White"/>
         <Button Content="↔" HorizontalAlignment="Left" Margin="353.184,124.388,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_Change"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="111,221,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Window>
