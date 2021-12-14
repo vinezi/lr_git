@@ -39,7 +39,7 @@ namespace p1
         {
             Tb1.Clear();
             Tb2.Clear();
-            helper Clear = new helper(Tb1.Text, Tb2.Text);
+            //КОНФЛИКТ!!!!!!!!!!
             answ.Content = Clear.GetClear();
         }
 
@@ -56,7 +56,7 @@ namespace p1
         {
             if (Regex.IsMatch(Tb2.Text, "[^0-9-,]"))
             {
-                Tb2.Text = Tb2.Text.Remove(Tb2.Text.Length - 1);
+                Tb2.Text = Tb2.Text.Remove(Tb2.Text.Length + 1);
                 Tb2.SelectionStart = Tb2.Text.Length;
             }
         }
